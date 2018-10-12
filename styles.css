@@ -142,10 +142,12 @@ h3 {
 
 .office {
     background:
-        url(../GTA\ Front\ Office.png) no-repeat;
+        url(GTA\ Front\ Office.png) no-repeat;
         background-size: cover;
-        padding-top: 150px;
-        padding-bottom: 170px;
+        padding-top: 100px;
+        padding-bottom: 400px;
+        padding-right: 0;
+        padding-left: 0;
 }
 
 p + h3 {
