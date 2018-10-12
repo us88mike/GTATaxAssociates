@@ -1,0 +1,177 @@
+/* Global styles */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    overflow: hidden;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    padding: 0;
+}
+
+/* Header and Footer */
+
+header, footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 12px;
+}
+/* header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header h1, header h2 {
+    color: black;
+    margin: 0;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* footer */
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Navigation */
+
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* Work Experience */
+
+.services {
+    background: #EDF2F4;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+
+/* Education */
+
+.office {
+    background:
+        url(../GTA\ Front\ Office.png) no-repeat;
+        background-size: cover;
+        padding-top: 150px;
+        padding-bottom: 170px;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+/* Media Queries */
+
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 50%;
+        float: left;
+    }
+    
+    .col-wide {
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+    }    
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
